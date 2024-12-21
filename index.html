@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- Avatar -->
+          <div class="navbar__avatar">
+            <img src="./img/avatar.png" alt="Avatar" class="avatar"/>
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#about">About</a></li>
+            <li class="navbar__link"><a href="#things">Works</a></li>
+            <li class="navbar__link"><a href="#works">Resume</a></li>
+            <a href="#footer"><button class="navbar__btn">Contact</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/banner.png" alt="illustration of man" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Nguyen Thanh Tra</h1>
+          <p>
+            Work hard, stay humble, be kind!
+          </p>
+          
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/profile.php?id=100012747378666"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/ThanhTra03"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tr%C3%A0-nguy%E1%BB%85n-3a1110306/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me -->
+<section id="about">
+    <div class="container">
+      <!-- heading -->
+      <h2>About Me</h2>
+      <!-- content -->
+      <p>
+        I am currently a student of Physics and Computer Science at VNU-HCMUS, where I have developed strong skills in both disciplines. 
+        I have a keen interest in researching computer science. Besides academics, I enjoy playing video games in my free time. 
+        My proficiency in English allows me to effectively read and listen to various resources, enhancing both my studies and personal interests.
+      </p>
+    </div>
+  </section>
+  
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Things I Do</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/mach1.png" alt="flag led" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Vietnam flag Led circuit model</h3>
+            <p>
+                This project involves designing and building an LED-based replica of the Vietnamese flag. 
+                Red LEDs will be used for the flag's background, and yellow LEDs will create the five-pointed star. 
+                The circuit will be constructed on a PCB and can be controlled using a logic circuit. 
+                This project is intended to pay tribute to the Vietnamese national flag and can be used for decorative or display purposes.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/mach2.png" alt="counting circuit" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Timer clock using 7SEG LED circuit model</h3>
+            <p>
+                This project aims to design and build a simple, unique digital clock using seven-segment LEDs. 
+                A microcontroller will be used to control the LEDs, generating numbers from 0 to 9 to display the accurate time.
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/game2d.png" alt="Game 2D" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>A 2D Java Adventure-Action Game</h3>
+            <p>
+                This project focuses on developing a 2D game featuring adventure and action elements. 
+                Players will embark on a quest to defeat monsters, gain experience points to level up, and use in-game currency to purchase items. 
+                Throughout their journey, players must find keys to unlock dungeons, solve puzzles, and engage in intense boss battles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Recent Works</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/work-1.png" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-2.png" alt="plate" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-3.png" alt="women" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-4.png" alt="piggy bank" />
+          </div>
+        </div>
+        <!-- btn -->
+        <div class="works__btn">
+          <a href="#"><button>View Works</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Ready to make something amazing?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:0829030450">
+              <i class="fas fa-phone-alt"></i>
+              <p>0829030450</p>
+            </a>
+            <a href="mailto:tranguyen1893@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <p>tranguyen1893@gmail.com</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/profile.php?id=100012747378666"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/ThanhTra03"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tr%C3%A0-nguy%E1%BB%85n-3a1110306/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
