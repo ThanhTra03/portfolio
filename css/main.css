@@ -87,7 +87,7 @@ header {
 
 #about {
     padding: 50px 0;
-    background-color: #f9f9f9; /* Màu nền nhạt */
+    background-color: #f9f9f9;
     text-align: center;
   }
   
@@ -95,15 +95,15 @@ header {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 20px;
-    color: #333; /* Màu chữ tiêu đề */
+    color: #333;
   }
   
   #about p {
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #555; /* Màu chữ nội dung */
+    color: #555;
     max-width: 800px;
-    margin: 0 auto; /* Canh giữa nội dung */
+    margin: 0 auto;
   }  
 
 /* menu */
@@ -134,7 +134,7 @@ header {
 .navbar__link a {
   text-decoration: none;
   color: #fff;
-  font-weight: 300;
+  font-weight: 500;
   transition: var(--smooth);
 }
 
@@ -233,7 +233,7 @@ header {
 
 .banner__img {
   position: absolute;
-  top: 0;
+  top: 80px;
   right: 0;
   z-index: -1;
 }
@@ -291,7 +291,7 @@ header {
     margin-right: 45px;
   }
   .banner__img {
-    width: 60%;
+    width: 55%;
   }
 }
 
@@ -299,7 +299,7 @@ header {
 #things {
   position: relative;
   overflow-x: hidden;
-  margin-top: 15em;
+  margin-top: 10em;
 }
 
 #things h2 {
@@ -380,7 +380,7 @@ header {
 
 /* === Works === */
 #works {
-  padding-top: 10em;
+  padding-top:10em;
   position: relative;
   overflow-x: hidden;
 }
